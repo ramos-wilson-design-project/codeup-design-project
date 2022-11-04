@@ -11,8 +11,12 @@
     --main-bg-color: #00ABA9;
 }
 :root {
-    --main-bg-color: #F0F0F0;
+    --background-bg-color: #F0F0F0;
 }
 :root {
     --main-bg-color: #E6E6E6;
+}
+body {
+    background-color: var(--background-bg-color);
+    font-family: "Abel", sans-serif;
 }
