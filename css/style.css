@@ -9,6 +9,7 @@
 body {
     background-color: var(--background-bg-color);
     font-family: "Abel", sans-serif;
+    margin: 0 auto;
 }
 .anton {
     font-family: 'Anton', sans-serif;
@@ -31,6 +32,7 @@ body {
 }
 .design {
     background-color: var(--design-bg-color);
+
 }
 .develop {
     background-color: var(--develop-bg-color);
