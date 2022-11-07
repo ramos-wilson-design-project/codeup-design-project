@@ -1,22 +1,42 @@
 :root {
-    --main-bg-color: #E6563B;
-}
-:root {
-    --main-bg-color: #EB9D3A;
-}
-:root {
-    --main-bg-color: #7CB06C;
-}
-:root {
-    --main-bg-color: #00ABA9;
-}
-:root {
+    --design-bg-color: #E6563B;
+    --develop-bg-color: #EB9D3A;
+    --support-bg-color: #7CB06C;
+    --host-bg-color: #00ABA9;
     --background-bg-color: #F0F0F0;
-}
-:root {
-    --main-bg-color: #E6E6E6;
+    --outline-bg-color: #E6E6E6;
 }
 body {
     background-color: var(--background-bg-color);
     font-family: "Abel", sans-serif;
+}
+.anton {
+    font-family: 'Anton', sans-serif;
+}
+#title {
+    font-size: 4em;
+}
+* {
+    background-color: var(--background-bg-color);
+}
+.icon-sm {
+    height: 18px;
+    width: 18px;
+}
+.icon {
+    height: 75px;
+    width: 75px;
+}
+#design {
+    background-color: var(--design-bg-color);
+}
+#develop {
+    background-color: var(--develop-bg-color);
+}
+#support {
+    background-color: var(--support-bg-color);
+}
+#host {
+    background-color: var(--host-bg-color);
+
 }
