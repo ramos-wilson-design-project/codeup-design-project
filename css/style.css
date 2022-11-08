@@ -17,6 +17,9 @@ body {
 #title {
     font-size: 4em;
 }
+.large-font {
+    font-size: 1.25em;
+}
 * {
     background-color: var(--background-bg-color);
 }
